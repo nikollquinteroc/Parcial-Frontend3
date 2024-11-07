@@ -1,12 +1,15 @@
 import './App.css'
+import { Card } from './Components/Card'
 
 function App() {
 
   return (
-    <>
-      <h1>Hola</h1>
-    </>
+    <div className="App">
+      <h1>Carga de estdiantes</h1>
+      <form ></form>
+      <Card/>
+    </div>
   )
 }
 
-export default App
+export default App;
